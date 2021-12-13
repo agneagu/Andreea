@@ -1,0 +1,96 @@
+header {
+  background-color: black;
+  color: red;
+  font-size: 30px;
+  font-family: serif, arial;
+  padding: 20px;
+  text-align: center;
+}
+
+article {
+  width: 50%;
+  margin: 0 auto;
+  height: 1050px;
+}
+
+#acast {
+  height: 1100px;
+}
+
+h2 {
+  color: rgb( 102, 0, 0);
+  font-family: inherit, arial, sans-serif;
+  font-size: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+  height: 50px;
+  padding-top: 35px;
+}
+
+img {
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding: 25px;
+}
+
+.rightside {
+  width: 40%;
+  float:right;
+}
+
+section {
+  clear: both;
+  padding: 20px;
+}
+
+video {
+  border: 5px solid rgb( 102, 0, 0);
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  height: 30px;
+  text-align: center;
+  padding: 0px 150px;
+  background-color: black;
+  border: 3px;
+  border-color: rgba( 100, 0, 0, 0.8);
+  border-style: solid;
+
+
+}
+
+.flex-item  {
+  flex-grow: 2;
+  font-size: x-large;
+  cursor: pointer;
+  color: rgba(242, 242, 242, 0.8);
+}
+
+.flex-item:hover {
+  background-color: rgb( 102, 0, 0.5)
+}
+
+p::first-letter {
+  font-size: 40px;
+}
+
+ p {
+  font-size: 20px;
+  font-family:  arial;
+}
+
+#alone {
+  text-align: center;
+  font-style: arial;
+  font-size: 15px;
+  color: black;
+}
